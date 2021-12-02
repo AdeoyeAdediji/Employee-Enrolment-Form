@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Enrolment Portal</title>
+</head>
+<body>
+    <header>Application Form Page</header>
+    <hr><br>
+
+    <section>
+        <h2>This Update Form is for Developers only</h2><br>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores <br>
+         suscipit temporibus beatae? Numquam saepe ipsa aut quisquam eius voluptatum, <br>
+         deleniti blanditiis laborum suscipit modi perferendis nulla itaque quod mollitia quos?</p>
+         <hr><br>
+
+
+    <form>
+        <label for="passport">Upload Passport :</label>
+        <input type="file" id="passport" name="passport" required><br><br>
+
+        <label for="applicant">Name of Applicant :</label>
+        <input type="text" id="applicant" name="applicant" placeholder="Surname First" required>
+
+        <p>I AM A:</p>
+        <input type="radio" name="sex" value="Male" id="first">
+        <label for="first">Male</label>
+        <input type="radio" name="sex" value="Female" id="second">
+        <label for="second">Female</label>
+        <input type="radio" name="sex" value="Any Other" id="third">
+        <label for="third">Any Other</label><br><br>
+
+        <label for="options">Level of Experience:</label>
+            <select name="options" id="options">
+                <option value="1-3years">Beginner</option>
+                <option value="3-5years">Expert</option>
+                <option value="5 above">Professional</option>
+            </select>
+    </form><br>
+
+</section>
+    <hr>
+<div>
+    <table border="1">
+        <tr>
+            <th>Course of Study</th>
+            <th>Current Position Held</th>
+            <th>Position Applying For</th>
+            <th>Area of Specialization</th>      
+        </tr>
+        <tr>
+            <th><input type="text" placeholder="Course" required></th>
+            <th><input type="text" placeholder="Current Post" required></th>
+            <th><input type="text" placeholder="Seeking:" required></th>
+            <th><input type="text" placeholder="Speciality" required></th>
+        </tr><br><br>
+        
+    </table>
+</div>
+    <hr><br>
+    
+    <label for="intro">Introduce Yourself :</label><br>
+    <textarea name="intro" id="intro" cols="50" rows="20" placeholder="Tell us about yourself in less than 200 words"></textarea><br><br>
+    <br>
+
+    <label for="cv">Upload CV :</label>
+        <input type="file" id="cv" name="cv"><br>
+    <hr><br>
+    
+    <input type="submit">
+
+</body>
+</html>
